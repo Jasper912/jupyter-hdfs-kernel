@@ -1,0 +1,6 @@
+{
+  "default_name_service": "nameservice1",
+  "web_hdfs_nodes": {
+    "nameservice1": []
+  }
+}
