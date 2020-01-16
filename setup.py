@@ -15,9 +15,9 @@ with open(path.join(here, 'README.md')) as f:
 from hdfs_kernel.constants import __version__, DISPLAY_NAME
 
 setup(
-    name="HdfsKernel",
+    name="jupyter_hdfs_kernel",
     version=__version__,
-    description=DISPLAY_NAME + ' Kernel',
+    description='jupyter_hdfs_kernel',
     long_description=long_description,
     url='https://github.com/Jasper912/jupyter_hdfs_kernel.git',
     author='huangnj',

@@ -9,7 +9,7 @@ jupyter-kernelspec install hdfs_kernel/kernels/hdfs
 
 ### User config
 
-* web hdfs name service
+* webhdfs name service config to every user
 
 ```
 cp hdfs_kernel/config.json.template /home/{user}/.hdfs/config.json

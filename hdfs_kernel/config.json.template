@@ -1,6 +1,9 @@
 {
   "default_name_service": "nameservice1",
   "web_hdfs_nodes": {
-    "nameservice1": []
+    "nameservice1": [
+      "node1.yourhost.com",
+      "node2.yourhost.com"
+    ]
   }
 }
