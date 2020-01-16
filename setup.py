@@ -1,13 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-
 here = path.abspath(path.dirname(__file__))
-
-
-with open(path.join(here, 'requirements.txt')) as f:
-    requirements = f.read().splitlines()
-
 with open(path.join(here, 'README.md')) as f:
     long_description = f.read()
 
@@ -25,7 +19,14 @@ setup(
     license='MIT License',
     keywords='Hdfs Pyhdfs Kernel Ipykernel',
     packages=find_packages(),
-    install_requires=requirements,
+    install_requires=[
+        "hdfs==2.2.2",
+        "ipykernel==4.*",
+        "jupyter_client==5.*",
+        "jupyter_core==4.*",
+        "pandas>=0.23",
+        "sasl==0.2.*"
+    ],
     include_package_data=True,
     package_data={
         'hdfs_kernel': [

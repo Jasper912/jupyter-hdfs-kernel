@@ -7,7 +7,7 @@ import os
 
 LANG_HDFS = "hdfs"
 
-__version__ = 1.1
+__version__ = "1.0.2"
 KERNEL_NAME = "Hdfs"
 DISPLAY_NAME = "HDFS"
 LANGUAGE = 'hdfs'
